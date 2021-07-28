@@ -47,6 +47,9 @@ namespace ConsoleApp
         private int horsePower { get; set; }
         private int price { get; set; }
         private static int numbersSold;
+
+        //Static variable that must be initialized at run time.
+        public static string staticName;
         public Car(int horsePower=90, int price = 11500)
         {
             numbersSold++;
@@ -59,28 +62,15 @@ namespace ConsoleApp
         {
             return numbersSold;
         }
+
+        //A static constructor initializes static data at runtime and is called before the creation of any instance constructor is called or any member is accessed
+        static Car()
+        {
+            staticName = "Static Constructor works!";
+        }
         
     }
 
-    //Static constructor => Example: Singleton design pattern
-    class Singleton
-    {
-        //A private constructor ensures that no other instance can be created
-        private Singleton() { }
-
-        // The Singleton's instance is stored in a static field
-        private static Singleton _instance;
-
-        // The static method that controls the access to the singleto instance
-        public static Singleton GetInstance()
-        {
-            if (_instance == null)
-            {
-                _instance = new Singleton();
-            }
-            return _instance;
-        }
-    }
 
     //Say hello to the world
     class Program
@@ -123,7 +113,8 @@ namespace ConsoleApp
             Console.WriteLine(firstStruct);
             Console.WriteLine(x);
 
-            
+            //Static constructor works
+            Console.WriteLine(Car.staticName);
         }
     }
 }
