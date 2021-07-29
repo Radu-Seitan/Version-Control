@@ -5,3 +5,4 @@
 - `Version Control.Git` -> The assignment for this lesson was creating the repo itself
 - `OOP Fundamentals`
 - `C# Basics`
+- `C# Classes & Interfaces`
