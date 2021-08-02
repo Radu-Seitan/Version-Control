@@ -6,3 +6,4 @@
 - `OOP Fundamentals`
 - `C# Basics`
 - `C# Classes & Interfaces`
+- `Strings, Dates and Times`
