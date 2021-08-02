@@ -7,3 +7,4 @@
 - `C# Basics`
 - `C# Classes & Interfaces`
 - `Strings, Dates and Times`
+- `Exception handling and Debugging`
