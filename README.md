@@ -10,3 +10,4 @@
 - `Exception handling and Debugging`
 - `Arrays, Generics, Collections`
 - `LINQ`
+- `Files and streams`
