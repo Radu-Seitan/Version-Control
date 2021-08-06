@@ -9,3 +9,4 @@
 - `Strings, Dates and Times`
 - `Exception handling and Debugging`
 - `Arrays, Generics, Collections`
+- `LINQ`
