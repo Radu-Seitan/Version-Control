@@ -11,3 +11,5 @@
 - `Arrays, Generics, Collections`
 - `LINQ`
 - `Files and streams`
+- `Behavioral Design patterns`
+- `IoC and Pragmatic principles` -> The assignment for this lesson is common with the one for behavioral patterns
