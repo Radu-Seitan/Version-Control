@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp.Factories
 {
-    class ShortMessageFactory : IMessageFactory
-    {
+    internal class ShortMessageFactory : IMessageFactory
+    {   
         public IMessage CreateMessage() => new ShortMessage();
     }
 }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp.Factories
 {
-    class LongMessageFactory : IMessageFactory
+    internal class LongMessageFactory : IMessageFactory
     {
         public IMessage CreateMessage() => new LongMessage();
     }

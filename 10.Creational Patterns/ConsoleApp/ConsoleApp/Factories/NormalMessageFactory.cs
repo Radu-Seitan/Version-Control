@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp.Factories
 {
-    class NormalMessageFactory : IMessageFactory
+    internal class NormalMessageFactory : IMessageFactory
     {
         public IMessage CreateMessage() => new NormalMessage();
     }
