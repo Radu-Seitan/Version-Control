@@ -13,4 +13,5 @@
 - `Files and streams`
 - `Creational Design Patterns`
 - `Behavioral Design Patterns`
+- `Structural Design Patterns`
 - `IoC and Pragmatic principles` -> The assignment for this lesson is common with the one for behavioral patterns
