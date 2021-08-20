@@ -19,3 +19,5 @@
 15.`Agile Fundamentals. Scrum` -> Reading more about Agile 
 
 ## Module 2 - SQL and ORM
+
+16.`Database fundamentals`
