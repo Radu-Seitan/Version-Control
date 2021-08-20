@@ -2,7 +2,7 @@
 
 ## Module 1 - OOP Fundamentals and C#
 
-- `1.Version Control.Git` -> The assignment for this lesson was creating the repo itself
+1.`Version Control.Git` -> The assignment for this lesson was creating the repo itself
 - `2.OOP Fundamentals`
 - `3.C# Basics`
 - `4.C# Classes & Interfaces`
