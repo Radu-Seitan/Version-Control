@@ -20,4 +20,5 @@
 
 ## Module 2 - SQL and ORM
 
-16.`Database fundamentals`
+16.`Database fundamentals`\
+17.`SQL Advanced and Subquery`
