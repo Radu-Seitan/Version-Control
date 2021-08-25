@@ -1,0 +1,62 @@
+
+--DEADLOCK
+BEGIN TRAN
+
+UPDATE BooksForSale
+SET Price = 21 WHERE Id = 1
+
+SELECT @@TRANCOUNT
+
+UPDATE BooksForSale
+SET Price = 56 WHERE Id = 6
+
+ROLLBACK TRAN
+
+
+--READ UNCOMMITED => Dirty Reads
+BEGIN TRAN
+UPDATE BooksForSale
+SET DateOfPublishing = '8/27/2000' WHERE Id = 1
+
+SELECT * FROM BooksForSale
+
+ROLLBACK TRAN
+
+SELECT * FROM BooksForSale
+
+
+--READ COMMITED => Non-repeteable Read
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
+
+BEGIN TRAN
+
+SELECT * FROM BooksForSale
+
+UPDATE BooksForSale
+SET DateOfPublishing = '8/27/2000' WHERE Id = 9
+
+SELECT * FROM BooksForSale
+
+ROLLBACK TRAN
+
+--REPEATABLE READ => Phantom Read
+BEGIN TRAN
+
+INSERT INTO BooksForSale (Title,DateOfPublishing,Price)
+VALUES ('New Book', '08/27/2000', 10)
+
+COMMIT TRAN
+
+--SERIALIZABLE => Lost update
+SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;
+
+BEGIN TRAN
+
+SELECT * FROM BooksForSale
+
+UPDATE BooksForSale
+SET DateOfPublishing = '8/28/2000' WHERE Id = 9
+
+SELECT * FROM BooksForSale
+
+COMMIT TRAN
