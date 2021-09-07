@@ -34,6 +34,6 @@
 1.`Communication Protocols` -> not done\
 2.`ASP.NET Core fundamentals` -> no assignment\
 3.`Web API` -> The assignment for this lesson was implemented on the project\
-4.`Web API Tests` -> not done
-5.`Web Page presentation` -> not done
+4.`Web API Tests` -> not done\
+5.`Web Page presentation` -> not done\
 6.`HTML & CSS` -> not done
