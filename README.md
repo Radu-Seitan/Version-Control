@@ -20,6 +20,20 @@
 
 ## Module 2 - SQL and ORM
 
-16.`Database fundamentals`\
-17.`SQL Advanced and Subquery`\
-18.`SQL Transaction`
+1.`Database fundamentals`\
+2.`SQL Advanced and Subquery`\
+3.`SQL Transaction`
+4.`Orm Introduction` -> The assignment for this lesson was implemented on the project\
+5.`Entity Framework Core mapping` -> The assignment for this lesson was implemented on the project\
+6.`Entity Framework Core relational mapping` -> The assignment for this lesson was implemented on the project\
+7.`Entity Framework Core mapping Advanced` -> The assignment for this lesson was implemented on the project\
+8.`Entity Framework Core Transaction and Selecting` -> not done
+
+## Module 3 - Web API and React
+
+1.`Communication Protocols` -> not done\
+2.`ASP.NET Core fundamentals` -> no assignment\
+3.`Web API` -> The assignment for this lesson was implemented on the project\
+4.`Web API Tests` -> not done
+5.`Web Page presentation` -> not done
+6.`HTML & CSS` -> not done
