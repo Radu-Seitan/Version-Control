@@ -22,7 +22,7 @@
 
 1.`Database fundamentals`\
 2.`SQL Advanced and Subquery`\
-3.`SQL Transaction`
+3.`SQL Transaction`\
 4.`Orm Introduction` -> The assignment for this lesson was implemented on the project\
 5.`Entity Framework Core mapping` -> The assignment for this lesson was implemented on the project\
 6.`Entity Framework Core relational mapping` -> The assignment for this lesson was implemented on the project\
