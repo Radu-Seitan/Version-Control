@@ -16,7 +16,7 @@
 12.`Structural Design Patterns`\
 13.`IoC and Pragmatic principles` -> The assignment for this lesson is common with the one for behavioral patterns\
 14.`TDD and Unit testing`\
-15.`Agile Fundamentals. Scrum` -> Reading more about Agile\ 
+15.`Agile Fundamentals. Scrum` -> Reading more about Agile \ 
 16.`.NET Project Structure` -> setup of the project
 
 ## Module 2 - SQL and ORM
