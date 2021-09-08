@@ -33,7 +33,7 @@
 ## Module 3 - Web API and React
 
 1.`Communication Protocols`\
-2.`ASP.NET Core fundamentals` -> no assignment\
+2.`ASP.NET Core fundamentals` -> working on the project\
 3.`Web API` -> The assignment for this lesson was implemented on the project\
 4.`Web API Tests` -> not done\
 5.`Web Page presentation` -> not done\
