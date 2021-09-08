@@ -31,9 +31,9 @@
 
 ## Module 3 - Web API and React
 
-1.`Communication Protocols` -> not done\
+1.`Communication Protocols`\
 2.`ASP.NET Core fundamentals` -> no assignment\
 3.`Web API` -> The assignment for this lesson was implemented on the project\
 4.`Web API Tests` -> not done\
 5.`Web Page presentation` -> not done\
-6.`HTML & CSS` -> not done
+6.`HTML & CSS` -> Same assignment as the one for Communication protocols
