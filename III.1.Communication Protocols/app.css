@@ -1,0 +1,17 @@
+#firstButton{
+    border:1px solid black; 
+    margin:10px;
+}
+
+#secondButton{
+    border:1px solid black; 
+    margin:10px;
+}
+
+.card{
+    border: 1px rgb(196, 17, 11) solid;
+}
+
+.card2{
+    border: 1px rgb(11, 29, 196) solid;
+}
